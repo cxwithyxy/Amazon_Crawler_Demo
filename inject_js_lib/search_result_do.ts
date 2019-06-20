@@ -24,6 +24,10 @@ export = {
 
     get_item_price_string: () =>
     {
-        return (<string>document.querySelectorAll("#priceblock_saleprice")[0].textContent).substring(1)
+        try{
+            return (<string>document.querySelectorAll("#priceblock_saleprice")[0].textContent).substring(1)
+        }catch(e){
+            return "get fail"
+        }
     }
 }

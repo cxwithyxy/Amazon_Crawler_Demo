@@ -71,16 +71,24 @@ export class Big_boss extends Manager
         return re_array;
     }
 
+    /**
+     * 输出商品信息, 默认搞前5个
+     *
+     * @param {Array<string>} _item_links 商品链接数组
+     * @memberof Big_boss
+     */
     async print_all_item_info(_item_links: Array<string>)
     {
         let _item_links_clone = _item_links.concat([]);
-        await this.workers_do(async (_worker) =>
+        // this.proliferate_worker_until(_item_links_clone.length)
+        this.proliferate_worker_until(5)
+        await this.workers_do(async (_worker, _worker_index) =>
         {
             let price_string = "no price";
-            _worker.open_url(<string>_item_links_clone.shift())
+            _worker.open_url(_item_links[<number>_worker_index])
             await _worker.wait_page_load()
             price_string = await _worker.exec_js(`get_item_price_string()`)
-            console.log(price_string);
+            console.log(`item ${_worker_index} : ${price_string}`);
         })
         
     }
