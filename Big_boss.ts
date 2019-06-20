@@ -26,6 +26,7 @@ export class Big_boss extends Manager
         let result_links = await this.search_something(`雨伞`)
         console.log(`current page result count: ${result_links.length}`)
         await this.print_all_item_info(result_links)
+        await this.close_workers()
     }
 
     init_worker()
