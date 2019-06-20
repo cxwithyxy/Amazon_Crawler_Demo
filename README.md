@@ -20,3 +20,18 @@ yarn
 yarn start
 ```
 
+
+
+## 结果
+
+```
+we are going to work
+current page result count: 56
+item 1 : 218.00
+item 2 : get fail
+item 0 : 59.80
+item 4 : get fail
+item 3 : 79.00
+job done
+```
+
