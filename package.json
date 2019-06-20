@@ -1,5 +1,5 @@
 {
-  "name": "Amazon_Crawler_Demo",
+  "name": "amazon_crawler_demo",
   "version": "1.0.0",
   "main": "index.js",
   "author": "chenxuan <523764720@qq.com>",
@@ -10,9 +10,41 @@
   "devDependencies": {
     "@types/lodash": "^4.14.134",
     "electron": "^5.0.4",
+    "electron-builder": "^20.44.2",
     "typescript": "^3.5.2"
   },
   "scripts": {
-    "start": "tsc & electron ."
+    "start": "tsc & electron .",
+    "exe": "tsc && electron-builder",
+    "build": "tsc && electron-builder --dir"
+  },
+  "build": {
+    "appId": "amazon_crawler_demo",
+    "win": {
+      "target": "portable"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!**/*.ts",
+      "!dist",
+      "!yarn-error.log",
+      "!*.md",
+      "!tsconfig.json",
+      "!.vscode/",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!.editorconfig",
+      "!**/._*",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+    ]
   }
 }
