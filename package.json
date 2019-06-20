@@ -1,0 +1,14 @@
+{
+  "name": "Amazon_Crawler_Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chenxuan <523764720@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ElectronPageTentacle": "https://github.com/cxwithyxy/ElectronPageTentacle.git"
+  },
+  "devDependencies": {
+    "electron": "^5.0.4",
+    "typescript": "^3.5.2"
+  }
+}
