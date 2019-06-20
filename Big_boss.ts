@@ -4,8 +4,8 @@ export class Big_boss extends Manager
 {
 
     worker_setting = {
-        width: 600,
-        height: 600,
+        width: 900,
+        height: 700,
     }
     
     inject_js: Inject_js_handler
@@ -22,6 +22,7 @@ export class Big_boss extends Manager
     {
         this.init_worker()
         await this.goto_main_page()
+        await this.search_something(`雨伞`)
     }
 
     init_worker()
@@ -39,6 +40,15 @@ export class Big_boss extends Manager
     {
         await this.workers_do(async (_worker) => {
             _worker.open_url("https://www.amazon.cn/")
+            await _worker.wait_page_load()
+        })
+    }
+
+    async search_something(_search_key: string)
+    {
+        await this.workers_do(async (_worker) => {
+            await _worker.exec_js(`input_search_bar("${_search_key}")`)
+            await _worker.click(585, 69)
             await _worker.wait_page_load()
         })
     }
