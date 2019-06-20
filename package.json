@@ -8,7 +8,11 @@
     "ElectronPageTentacle": "https://github.com/cxwithyxy/ElectronPageTentacle.git"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.134",
     "electron": "^5.0.4",
     "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "start": "tsc & electron ."
   }
 }
