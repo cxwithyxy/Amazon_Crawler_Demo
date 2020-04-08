@@ -599,12 +599,12 @@ electron-osx-sign@0.4.11:
     minimist "^1.2.0"
     plist "^3.0.1"
 
-"electron-page-tentacle@file:../ElectronPageTentacle/dist/electron-page-tentacle.tgz":
+"electron-page-tentacle@https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v2.20200401172008/electron-page-tentacle.tgz":
   version "2.20200401172008.0"
-  resolved "file:../ElectronPageTentacle/dist/electron-page-tentacle.tgz#1ff9845f601bf365c4213f13e4f8017d136244bb"
+  resolved "https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v2.20200401172008/electron-page-tentacle.tgz#a115afb31789de8bf16e47bf30196e4cce08b639"
   dependencies:
     forin_promise "https://github.com/cxwithyxy/forin_promise.git"
-    lodash "4.17.5"
+    lodash "4.17.13"
     p-limit "^2.2.0"
     sleep-promise "^8.0.1"
 
@@ -1170,10 +1170,10 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@4.17.5:
-  version "4.17.5"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.5.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
-  integrity sha1-maktZcAnLevoyWtgV7yPv6O+1RE=
+lodash@4.17.13:
+  version "4.17.13"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.13.tgz?cache=0&sync_timestamp=1571657272199&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.13.tgz#0bdc3a6adc873d2f4e0c4bac285df91b64fc7b93"
+  integrity sha1-C9w6atyHPS9ODEusKF35G2T8e5M=
 
 lodash@^4.17.11:
   version "4.17.15"
