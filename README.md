@@ -41,7 +41,7 @@ job done
 
 #### 下载打包后的程序
 
-[点击下载 win-unpacked.7z](https://github.com/cxwithyxy/Amazon_Crawler_Demo/releases/download/v1/win-unpacked.7z)
+[点击下载 win-unpacked.7z](https://github.com/cxwithyxy/Amazon_Crawler_Demo/releases/download/v2/win-unpacked.7z)
 
 #### 解压和运行
 
