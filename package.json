@@ -1,15 +1,15 @@
 {
   "name": "amazon_crawler_demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "author": "chenxuan <523764720@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "ElectronPageTentacle": "https://github.com/cxwithyxy/ElectronPageTentacle.git"
+    "electron-page-tentacle": "E:\\workplace\\code\\ElectronPageTentacle\\dist\\electron-page-tentacle.tgz"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.134",
-    "electron": "^5.0.4",
+    "electron": "5.0.13",
     "electron-builder": "^20.44.2",
     "typescript": "^3.5.2"
   },

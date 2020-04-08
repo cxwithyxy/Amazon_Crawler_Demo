@@ -1,4 +1,4 @@
-import { Manager, Worker, Inject_js_handler } from "ElectronPageTentacle";
+import { Manager, Worker, Inject_js_handler } from "electron-page-tentacle";
 
 export class Big_boss extends Manager
 {
