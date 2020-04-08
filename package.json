@@ -5,7 +5,8 @@
   "author": "chenxuan <523764720@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "electron-page-tentacle": "E:\\workplace\\code\\ElectronPageTentacle\\dist\\electron-page-tentacle.tgz"
+    "electron-page-tentacle": "E:\\workplace\\code\\ElectronPageTentacle\\dist\\electron-page-tentacle.tgz",
+    "sleep-promise": "^8.0.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.134",
