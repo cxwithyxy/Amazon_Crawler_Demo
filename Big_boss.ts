@@ -1,4 +1,5 @@
-import { Manager, Worker, Inject_js_handler } from "ElectronPageTentacle";
+import { Manager, Worker, Inject_js_handler } from "electron-page-tentacle";
+import sleep from "sleep-promise";
 
 export class Big_boss extends Manager
 {
@@ -68,6 +69,7 @@ export class Big_boss extends Manager
             await _worker.click(585, 69)
             await _worker.wait_page_load()
             re_array = await _worker.exec_js(`get_item_links()`)
+            
         })
         return re_array;
     }
