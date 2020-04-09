@@ -16,7 +16,7 @@ jobs:
     - name: yarn init
       run:  yarn
     - name: build it
-      run: yarn npm_pack
+      run: yarn exe
     - name: display dir
       run: dir .\dist
     - name: send for release_it job
