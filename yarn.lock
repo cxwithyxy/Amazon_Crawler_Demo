@@ -512,9 +512,9 @@ electron-osx-sign@0.4.11:
     minimist "^1.2.0"
     plist "^3.0.1"
 
-"electron-page-tentacle@E:\\workplace\\code\\ElectronPageTentacle\\dist\\electron-page-tentacle.tgz":
-  version "2.20200401172008.0"
-  resolved "E:\\workplace\\code\\ElectronPageTentacle\\dist\\electron-page-tentacle.tgz#0186ec97e0b26cf04b242ddc7d8028316d9a328a"
+"electron-page-tentacle@https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v3.20200409141753/electron-page-tentacle.tgz":
+  version "3.20200409141753.0"
+  resolved "https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v3.20200409141753/electron-page-tentacle.tgz#53f1c655444926d4ff740b0629bbebc3f1835cb7"
   dependencies:
     forin_promise "https://github.com/cxwithyxy/forin_promise.git"
     lodash "^4.17.15"

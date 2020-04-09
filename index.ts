@@ -2,6 +2,8 @@ import { Big_boss } from "./Big_boss";
 import { app } from "electron";
 
 app.on("ready", async () => {
+    
+    app.allowRendererProcessReuse = true
 
     let big_boss = new Big_boss()
      
