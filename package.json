@@ -22,7 +22,7 @@
   "build": {
     "appId": "amazon_crawler_demo",
     "win": {
-      "target": "portable"
+      "target": "7z"
     },
     "directories": {
       "output": "dist"
