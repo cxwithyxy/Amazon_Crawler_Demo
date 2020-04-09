@@ -1,16 +1,16 @@
 {
   "name": "amazon_crawler_demo",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "author": "chenxuan <523764720@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "electron-page-tentacle": "https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v2.20200401172008/electron-page-tentacle.tgz",
+    "electron-page-tentacle": "https://github.com/cxwithyxy/ElectronPageTentacle/releases/download/v3.20200409141753/electron-page-tentacle.tgz",
     "sleep-promise": "^8.0.1"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.134",
-    "electron": "5.0.13",
+    "electron": "8.2.1",
     "electron-builder": "^20.44.2",
     "typescript": "^3.5.2"
   },
